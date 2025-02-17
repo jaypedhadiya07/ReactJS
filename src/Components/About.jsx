@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = () => {
+const About = (props) => {
   return (
-    <div>About</div>
+    <div>{props.cou}</div>
   )
 }
 export default About

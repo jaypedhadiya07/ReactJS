@@ -1,13 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./Home";
-import About from "./About";
+import Home from "./Components/Home";
+import About from "./Components/About";
 
 function App() {
-  const x = prompt("Enter Your Value");
   return (
     <div>
-      <Home text={x}></Home>
+      <Home></Home>
       <About></About>
     </div>
   );
