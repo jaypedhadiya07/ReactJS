@@ -9,7 +9,13 @@ function App() {
 
   let Add = () => {
     if(Count < 20){
-      setCount(Count + 1)
+      // setCount(Count + 1)
+      // setCount(Count + 1)
+      // setCount(Count + 1) === > output +1
+
+      setCount(prevCount => prevCount + 1)
+      setCount(prevCount => prevCount + 1) // ===> output +2
+
     }
   }
   let Remove = () => {
